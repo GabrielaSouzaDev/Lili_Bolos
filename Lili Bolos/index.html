@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sinta o sabor do feito em casa! Bolos e doces caseiros preparados com amor, carinho e ingredientes selecionados para momentos especiais.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+
+    <title>Lili bolos</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="#inicio">
+            <img 
+                src="./src/images/logo.jpeg" 
+                alt="Logo Lili Bolos"
+                class="logo">
+        </a>
+        
+        <button class="menu-hamburguer" aria-label="Abrir menu">☰</button>
+
+        <nav class="navbar" aria-label="Menu principal">
+            <ul class="navegacao-lista">
+                <li> <a href="#inicio" class="item-menu">Início</a> </li>
+                <li> <a href="#quem-somos" class="item-menu">Quem Somos</a> </li>
+                <li> <a href="#cardapio" class="item-menu">Cardápio</a> </li>
+                <li> <a href="#avaliacoes" class="item-menu">Avaliações</a> </li>
+                <li> <a href="#como-pedir" class="item-menu">Como Pedir</a> </li>
+                <li> <a href="#contatos" class="item-menu">Contatos</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="conteudo-principal">
+        <section class="inicio" id="inicio">
+            <div class="inicio-descricao">
+                <h1> Feito com amor <br> <span>em cada detalhe!</span> </h1>
+                <p> Bolos e doces caseiros que transformam momentos especiais em memórias inesquecíveis. </p>
+                <div class="botoes">
+                    <a href="#cardapio" class="botao-cardapio"> Ver Cardápio ➔ </a>
+                    <a href="#como-pedir" class="botao-pedido"> 💬 Fazer Pedido </a>
+                </div>
+            </div>
+            <img
+            class="imagem" 
+            src="/src/images/coração de chocolate.png" 
+            alt="coração de chocolate">
+        </section>
+        <img
+            class="imagem-seta" 
+            src="/src/icons/Role_para_baixo.png" 
+            alt="Role para baixo">
+
+        <section class="quem-somos" id="quem-somos">
+            <h2 class="titulo"> Quem Somos </h2>
+            <p class="subtitulo"> Uma história de amor e dedicação </p>
+            <p> A <span>Lili Bolos</span> na cozinha de casa, com muita vontade de adoçar a vida das pessoas. O que começou como um hobby virou paixão — e depois, uma confeitaria caseira de verdade. Cada bolo é feito com ingredientes selecionados, sem pressa, com o carinho que só o feito à mão tem. Aqui, a gente acredita que <span>todo momento merece um doce especial.</span> </p>
+        </section>
+
+        <section class="cardapio" id="cardapio">
+            <h2 class="cardapio">Cardápio</h2>
+            <article class="card">
+                <img 
+                src="/src/images/bolofofos.jpeg" 
+                alt="bolo de festa bolofofos"
+                class="card-imagem">
+                <h3 class="card-titulo">Bolofofos</h3>
+                <p class="card-info">Bolo de festa com massa branca e decoração temática</p>
+                <strong class="card-preco">R$189,90</strong>
+                <a 
+                href="https://wa.me/5513997784399"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="pedir"> 
+                <img
+                class="icone" 
+                src="/src/icons/carrinho-de-compras.png" 
+                alt="">Pedir</a>
+            </article>
+
+            <article class="card">
+                <img 
+                src="/src/images/bolo morango.jpeg" 
+                alt="bolo com massa branca decorado com morangos"
+                class="card-imagem">
+                <h3 class="card-titulo">Bolo de Morango</h3>
+                <p class="card-info">Massa branca fofinha, recheio de ninho e morangos frescos</p>
+                <strong class="card-preco">R$129,90</strong>
+                <a 
+                href="https://wa.me/5513997784399"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="pedir">
+                    <img
+                    class="icone" 
+                    src="/src/icons/carrinho-de-compras.png" alt="">Pedir</a>
+            </article>
+        </section>
+
+        <section class="avaliacoes" id="avaliacoes">
+            <h2 class="avaliacoes">O que dizem nossos clientes</h2>
+            <p>A felicidade dos nossos clientes é a nossa maior recompensa</p>
+            <article class="card-avaliacao">
+                <p class="depoimento-cliente"> A massa estava muito bem feita e a decoração impecável, meu filho ficou muito feliz com o bolo de aniversário, recomendo muito. </p>
+                <footer class="autor-avaliacao">
+                    <img
+                    class="icone" 
+                    src="/src/icons/icone-avaliação.png" alt=""> Jorge 
+                </footer>
+            </article>
+
+            <article class="card-avaliacao">
+                <p class="depoimento-cliente"> O bolo mais fofinho e gostoso que já comi na minha vida! </p>
+                <footer class="autor-avaliacao">
+                    <img
+                    class="icone" 
+                    src="/src/icons/icone-avaliação.png" alt=""> Ana Maria 
+                </footer>
+            </article>
+        </section>
+
+        <section class="como-pedir" id="como-pedir">
+            <h2 class="titulo-pedido"> Como fazer seu pedido </h2>
+            
+            <p class="paragrafo-pedido"> Entre em contato agora mesmo e garanta o bolo perfeito para você. Estamos prontos para tornar seu momento ainda mais especial! </p>
+            
+            <a 
+            href="https://wa.me/5513997784399"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="botao-pedido">
+                <img
+                class="icone" 
+                src="/src/icons/whatsapp.png" alt=""> Pedir pelo WhatsApp 
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#inicio">
+            <img 
+                src="./src/images/logo.jpeg" 
+                alt="Logo Lili Bolos"
+                class="logo">
+        </a>
+
+        <address id="contatos">
+            <p class="endereco">
+                <img
+                class="icone" 
+                src="/src/icons/localizacao.png"> Praia Grande, SP</p>
+            
+            <div class="redes-sociais">
+                <a 
+                href="https://www.instagram.com/lilibolos24" 
+                class="botao-rede-social"
+                target="_blank"
+                rel="noopener noreferrer">
+                    <img
+                    class="icone" 
+                    src="/src/icons/instagram.png" alt="Instagram">
+                </a>
+
+                <a 
+                href="https://wa.me/5513997784399"
+                class="botao-rede-social"
+                target="_blank"
+                rel="noopener noreferrer">
+                    <img
+                    class="icone" 
+                    src="/src/icons/whatsapp.png" alt="WhatsApp">
+                </a>
+            </div>
+        </address>
+        <p> &copy; 2026 Lili Bolos. Todos os direitos reservados.</p>
+        <p> Feito por ❤ Gabriela Souza </p>
+    </footer>
+
+    <script src="/src/js/script.js"></script>
+</body>
+</html>
